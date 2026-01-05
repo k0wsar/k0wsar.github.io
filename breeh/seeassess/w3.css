@@ -249,3 +249,52 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-dark-grey,.w3-hover-border-dark-grey:hover,.w3-border-dark-gray,.w3-hover-border-dark-gray:hover{border-color:#616161!important}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+
+/* the board */
+#chessborder {
+    width: 93.74%;
+    height: 93.74%;
+    max-width: 1200px;
+    max-height: 1200px;
+    border: 10px solid #787878;
+    margin: 20px auto 20px auto;
+    text-align: center;
+}
+
+.black {
+   background-color: black;
+   max-width: 12.5%;
+   max-height: 11.72vw;
+   width: 150px;
+   height: 150px;
+   float: left;
+}
+
+.bee {
+    background-color: #ff9900;
+    max-width: 12.5%;
+    max-height: 11.72vw;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+#clearfix {
+    clear: both;
+}
+
+.chesspiss {
+    width: 50%;
+    height: 90%;
+    margin: 5%;
+}
+
+.anotherpiss {
+    width: 65%;
+    height: 65%;
+    margin: 18%;
+}
+
+.crossed-out {
+  text-decoration: line-through;
+}
