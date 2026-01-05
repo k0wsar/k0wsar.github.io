@@ -92,6 +92,10 @@ body {
     background-color: black;
 }
 
+.crossed-out {
+  text-decoration: line-through;
+}
+
 /* Optimized for mobile */
 @media only screen and (max-width: 740px){
     div.navlinks {
